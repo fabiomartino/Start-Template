@@ -1,5 +1,8 @@
 # Start Template
 
+
+[![Build Status](https://travis-ci.org/fabiomartino/Start-Template.svg?branch=master)](https://travis-ci.org/fabiomartino/Start-Template)
+
 Angular 2+ Start Template (routing, services), Bootstrap 4 and Fontawesome
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
