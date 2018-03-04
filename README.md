@@ -1,11 +1,13 @@
 # Start Template
 
+<!-- Badges section here. -->
 [![Build Status](https://travis-ci.org/fabiomartino/Start-Template.svg?branch=master)](https://travis-ci.org/fabiomartino/Start-Template)
 [![Greenkeeper badge](https://badges.greenkeeper.io/fabiomartino/Start-Template.svg)](https://greenkeeper.io/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/fabiomartino/Start-Template)
 
 Angular 2+ Start Template (routing, services), Bootstrap 4 and Fontawesome
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
 ## Development server
 
