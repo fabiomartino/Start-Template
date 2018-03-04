@@ -1,8 +1,5 @@
 # Start Template
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/fabiomartino/Start-Template.svg)](https://greenkeeper.io/)
-
-
 [![Build Status](https://travis-ci.org/fabiomartino/Start-Template.svg?branch=master)](https://travis-ci.org/fabiomartino/Start-Template)
 [![Greenkeeper badge](https://badges.greenkeeper.io/fabiomartino/Start-Template.svg)](https://greenkeeper.io/)
 
