@@ -3,12 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Pages Components
 import {
+  NavbarComponent,
   Page1Component,
   Page2Component,
   Page3Component,
   Page4Component,
   Page5Component,
-  Page6Component
+  Page6Component,
+  FooterComponent
 } from './components/index';
 
 const routes: Routes = [
@@ -29,4 +31,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routedComponents = [Page1Component, Page2Component, Page3Component, Page4Component, Page5Component, Page6Component];
+export const routedComponents = [ Page1Component, Page2Component, Page3Component, Page4Component, Page5Component, Page6Component ];
+export const layoutComponents = [ NavbarComponent, FooterComponent ];
