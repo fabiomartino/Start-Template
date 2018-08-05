@@ -3,6 +3,7 @@
     "files.exclude": {
 			"**/.vscode": {},
 			"**/node_modules": {},
+			"**/.sonarlint": {},
 			"typings": {},
 			"**/*.map": {},
 			"**/*.js": {

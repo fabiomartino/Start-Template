@@ -26,6 +26,7 @@
 !.vscode/extensions.json
 
 # misc
+.sonarlint/*
 package-lock.json
 /.sass-cache
 /connect.lock
