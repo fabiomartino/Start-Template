@@ -28,5 +28,4 @@ import { InfoService } from './services/info.service';
   providers: [ InfoService ],
   bootstrap: [ AppComponent ]
 })
-
 export class AppModule { }

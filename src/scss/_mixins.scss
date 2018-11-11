@@ -1,0 +1,56 @@
+// Border Radius
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+  
+  // Animation Mixin
+  @mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+      @content
+    }
+  
+    @-moz-keyframes #{$name} {
+      @content
+    }
+  
+    @-ms-keyframes #{$name} {
+      @content
+    }
+  
+    @-o-keyframes #{$name} {
+      @content
+    }
+  
+    @keyframes #{$name} {
+      @content
+    }
+  }
+  
+  // Animation
+  @mixin animation($value) {
+    -webkit-animation: $value;
+    -moz-animation: $value;
+    -ms-animation: $value;
+    -o-animation: $value;
+    animation: $value;
+  }
+  
+  // Overflow Ellipsis
+  @mixin ellipsis() {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  // Word Wrapping
+  @mixin word-wrap() {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }

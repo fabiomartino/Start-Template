@@ -7,7 +7,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/fabiomartino/Start-Template)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/fabiomartino/Start-Template)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
 ## Development server
 
