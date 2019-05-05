@@ -1,17 +1,20 @@
 {
-    "editor.wordWrap": "off",
-    "files.exclude": {
-			"**/.vscode": {},
-			"**/node_modules": {},
-			"**/.sonarlint": {},
-			"typings": {},
-			"**/*.map": {},
-			"**/*.js": {
-				"when": "$(basename).ts"
-			}
-	},
-  "files.autoSave": "onWindowChange",
-	"editor.fontFamily": "'Courier New', Menlo, Monaco, monospace",
-  "tslint.enable": true,
-  "sonarlint.ls.javaHome": "/usr/jdk-10.0.1/"
+  "editor.wordWrap": "off",
+  "files.exclude": {
+    "**/.vscode": {},
+    "**/node_modules": {},
+    "typings": {},
+    "**/*.map": {},
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+  "editor.fontFamily": "'Operator Mono', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line-thin",
+  "editor.wordWrapColumn": 120,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true
 }

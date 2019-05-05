@@ -2,7 +2,7 @@
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 
 module.exports = function (config) {
-  const defaults = {
+  config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
@@ -16,12 +16,9 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, '../coverage'),
-      reports: ['html', 'lcovonly'],
+      dir: require('path').join(__dirname, '../coverage/start-template'),
+      reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
-    },
-    angularCli: {
-      environment: 'dev'
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
@@ -30,22 +27,6 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['Chrome'],
     singleRun: false,
-  }
-
-  if (process.env.TEST_CI) {
-    Object.assign(defaults, {
-      autoWatch: false,
-      browsers: ['ChromeHeadlessNoSandbox'],
-      singleRun: true,
-      customLaunchers: {
-        ChromeHeadlessNoSandbox: {
-          base: 'ChromeHeadless',
-          flags: ['--no-sandbox']
-        }
-      },
-      browserNoActivityTimeout: 60000,
-    })
-  }
-
-  config.set(defaults)
+    restartOnFileChange: true
+  });
 };
